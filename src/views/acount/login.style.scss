@@ -1,0 +1,33 @@
+.login{
+	//vw可视区100%
+	width:100vw;
+	height: 100vh;
+	background-color: #282828;
+	
+	//display: flex;
+	.form-wrap{
+		width: 200px;
+		margin: auto;
+		color: wheat;
+		position: relative;
+		left: 0%;
+		top: 25%;
+		label{	
+			color: white;
+			font-size: 10px;
+			
+			
+		}
+		
+	}
+}
+.loginButton{
+	width: 200px;
+}
+.link{
+	font-size:10px ;
+	color: white;
+}
+.linKsums{
+	text-align: center;
+}
