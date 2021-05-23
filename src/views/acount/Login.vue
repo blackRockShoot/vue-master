@@ -1,7 +1,9 @@
 <template>
 	
-  <div class="login">
-	<div class="form-wrap">
+  <div class="login" >
+	 
+	<div class="form-wrap" >
+		<h1 style="font-size: 40px;color: white;" align="center">智慧数据网</h1>	
 		<a-form
 		    name="custom-validation"
 		    ref="formRef"
@@ -43,11 +45,11 @@ export default defineComponent({
       checkPass: '',
       
     });
-
+	
     return {
       formState,
       formRef,
-
+	  
     };
   },
 });
@@ -55,5 +57,6 @@ export default defineComponent({
 
 //引入样式
 <style lang="scss">
+	
 	@import "./login.style.scss"
 </style>
